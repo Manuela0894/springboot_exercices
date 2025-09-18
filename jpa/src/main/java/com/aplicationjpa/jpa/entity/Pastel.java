@@ -1,4 +1,4 @@
-package entity;
+package com.aplicationjpa.jpa.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ public class Pastel {
 	 @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private long Id;
-	    
+	 
 	    private String sabor;
 	    private double preco;
 	    private String tamanho;
